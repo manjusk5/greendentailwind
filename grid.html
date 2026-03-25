@@ -1,0 +1,79 @@
+<style>
+    .container {
+        display: grid;
+        grid-template-rows: 1fr 5fr 1fr;
+    }
+
+    .header {
+        background-color: seagreen;
+        color: white;
+        padding: 5px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        background-color: seagreen;
+        color: white;
+        padding: 5px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .middle {
+        background-color: skyblue;
+        color: white;
+        padding: 5px;
+    }
+
+    .one {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .main-container {
+        background-color: yellowgreen;
+        color: white;
+        height: 400px;
+        margin: 2px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sidebar {
+        background-color: orangered;
+
+        margin: 2px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .img{
+        background-color: orange;
+        height: 60px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+<div class="container">
+    <div class="header">header</div>
+    <div class="middle">
+        <div class="one">
+            <div class="main-container">Aside</div>
+<div class="sidebar">
+            <div class="sidebar">article</div>
+
+            <div class="img">image</div>
+            <div class="img">image</div>
+            <div class="img">image</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">footer</div>
+</div>
